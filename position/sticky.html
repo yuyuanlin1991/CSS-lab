@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>Sticky-demo</title>
+    <style type=text/css>
+        .parent{
+            overflow: visible;
+            width: 100%;
+        }
+        .sonTwo{
+           position:sticky; 
+           top:-5px;
+        }
+    </style>
+  </head>
+  <body>
+      <div class="parent">
+          <div class="sonOne">
+            <img src='./images/preHeader.png'/>
+          </div>
+          <div class="sonTwo">
+            <img src='./images/nav.png'/>
+          </div>
+          <div class="sonThree">
+            <img src='./images/content.png'/>
+          </div>
+      </div>
+  </body>
+</html>
